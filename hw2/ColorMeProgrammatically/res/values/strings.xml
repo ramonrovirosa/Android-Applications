@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ColorMeProgrammatically</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="button_red">Red</string>
+    <string name="button_green">Green</string>
+    <string name="button_blue">Blue</string>
+    <string name="button_yellow">Yellow</string>
+
+</resources>
