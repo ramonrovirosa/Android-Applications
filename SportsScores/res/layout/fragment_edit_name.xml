@@ -25,8 +25,8 @@
                 android:id="@+id/txt_team_name"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:imeOptions="actionDone"
-                android:inputType="text" />
+                android:inputType="text"
+                android:imeOptions="actionNext" />
         </LinearLayout>
  
 
@@ -46,7 +46,7 @@
                 android:id="@+id/score1_txt_frag"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:imeOptions="actionDone"
+                android:imeOptions="actionNext"
                 android:inputType="number" />
         </LinearLayout>
 
@@ -67,7 +67,7 @@
                 android:id="@+id/team2_txt"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:imeOptions="actionDone"
+                android:imeOptions="actionNext"
                 android:inputType="text" />
         </LinearLayout>
  
