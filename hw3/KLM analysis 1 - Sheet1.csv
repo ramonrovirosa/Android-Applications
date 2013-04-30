@@ -1,0 +1,41 @@
+KLM Operator,M originally Inserted,M deleted,Time,Comment
+P,yes,no,2.45,Point to the enter button
+K,yes,Yes,0.2,
+P,yes,no,2.45,Point to the clicker
+W,yes,no,3.95,Select month
+P,yes,no,2.45,
+W,yes,no,3.95,Select day
+P,yes,no,2.45,
+W,yes,no,3.95,Select year
+P,yes,no,2.45,Point to done button
+K,yes,Yes,0.2,click on done button
+P,yes,no,2.45,Point to Enter Game Button
+K,yes,Yes,0.2,
+P,yes,no,2.45,Point to team 1 input
+K,yes,Yes,0.2,
+H,no,X,0.4,Switch to keyboard
+K,yes,no,1.55,
+K,yes,Yes,0.2,Click 2 letters
+P,yes,no,2.45,Point to team 
+K,yes,Yes,0.2,Click on team name
+P,yes,no,2.45,Point to next on keyboard
+K,yes,Yes,0.2,
+K,yes,no,1.55,Click to add 2 digit score
+K,yes,Yes,0.2,
+K,yes,Yes,0.2,Click next
+K,yes,no,1.55,Click team 2 name
+K,yes,Yes,0.2,
+P,yes,no,2.45,Point to team 2
+K,yes,Yes,0.2,
+P,yes,no,2.45,Point to Keyboard next button
+K,yes,Yes,0.2,Click next
+K,yes,no,1.55,Click 3 digit score for team 2
+K,yes,Yes,0.2,
+K,yes,yes,0.2,
+K,yes,Yes,0.2,Click done
+P,yes,no,2.45,Point to done button
+K,yes,Yes,0.2,Click done button
+P,yes,no,2.45,Point to next game butotn
+K,yes,Yes,0.2,click on next game button
+,,,,"I take into account the average most optimal way to enter in the data. There are four varientes for this problem: Both teams score 3 digit points, both teams score 2 digit points, 1 team scores 2 digit points & 1 scores 3 digit poitns, So I chose the scenario where 1 team scores 2 digit points & 1 scores 3 digit points as the average case scenario."
+,,Total Time: ,53.7,Seconds

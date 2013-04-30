@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/dlg_edit_name"
+    android:orientation="vertical" >
+
+    <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lbl_your_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+string/team1Frag"
+                android:textSize="20sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/txt_team_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:imeOptions="actionNext" />
+        </LinearLayout>
+ 
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/score1_frag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+string/score1_frag"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/score1_txt_frag"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="number" />
+        </LinearLayout>
+
+          
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/team2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+string/team2Frag"
+                android:textSize="20sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/team2_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+        </LinearLayout>
+ 
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/score2_frag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+string/score1_frag"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/score2_txt_frag"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="number" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/done_Frag"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="sendMessage"
+                android:tag="done_Frag"
+                android:text="Done"
+               />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>
