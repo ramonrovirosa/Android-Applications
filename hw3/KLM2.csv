@@ -1,0 +1,32 @@
+KLM Operator,M originally inserted,M deleted?,Time,Comment
+P,Yes,No,2.45,Point to Month wheel
+W,Yes,No,3.95,wheel scroll
+P,Yes,No,2.45,point to day
+W,Yes,No,3.95,
+P,Yes,No,2.45,point to year
+W,Yes,No,3.95,
+P,Yes,No,2.45,Point to team 1 name
+K,Yes,Yes,0.2,
+W,Yes,No,3.95,
+K,Yes,No,1.55,
+P,Yes,No,2.45,Point to score picker
+K,Yes,Yes,0.2,
+H,Yes,No,1.75,move to keyboard
+K,Yes,Yes,0.2,Click on scores
+K,Yes,No,1.55,backspace to delete original value
+K,Yes,Yes,0.2,2 Digit Score
+K,Yes,Yes,0.2,
+K,Yes,Yes,0.2,Click next when done
+K,Yes,No,1.55,Click bacspace
+K,Yes,Yes,0.2,3 Digit score
+K,Yes,Yes,0.2,
+K,Yes,Yes,0.2,
+K,Yes,Yes,0.2,click done when done
+P,Yes,No,2.45,Point to 2nd team name
+K,Yes,Yes,0.2,
+W,Yes,No,3.95,
+K,Yes,Yes,0.2,
+P,Yes,No,2.45,Point to enter button
+K,Yes,Yes,0.2,click on enter button
+,,,,"I take into account the average most optimal way to enter in the data. There are four varientes for this problem: Both teams score 3 digit points, both teams score 2 digit points, 1 team scores 2 digit points & 1 scores 3 digit poitns, So I chose the scenario where 1 team scores 2 digit points & 1 scores 3 digit points as the average case scenario."
+,,Total,45.9,Seconds
