@@ -78,8 +78,9 @@ public class KeepScoreActivity extends FragmentActivity {
 			
 			wheelDateYear = (WheelView) findViewById(R.id.timePickerYear);
 			wheelDateYear.setViewAdapter(new NumericWheelAdapter(this, 2012,2013));
-			wheelDateYear.addChangingListener(wheelListener);		
+					
 			wheelDateYear.setCurrentItem(wYear);
+			wheelDateYear.addChangingListener(wheelListener);
 			
 			wheelDateMonth = (WheelView) findViewById(R.id.timePickerMonth);
 			wheelDateMonth.setViewAdapter(new ArrayWheelAdapter<String>(this,
@@ -124,14 +125,15 @@ public class KeepScoreActivity extends FragmentActivity {
 			wheelDateYear = (WheelView) findViewById(R.id.timePickerYear);
 			wheelDateYear.setViewAdapter(new NumericWheelAdapter(this, 2012,
 					2013));
+			wheelDateYear.setCurrentItem(1);
 			wheelDateYear.addChangingListener(wheelListener);
-			wheelDateYear.setCurrentItem(0);
+			
 
 			// Month
 			wheelDateMonth = (WheelView) findViewById(R.id.timePickerMonth);
 			wheelDateMonth.setViewAdapter(new ArrayWheelAdapter<String>(this,
 					getResources().getStringArray(R.array.months_short)));
-			wheelDateMonth.setCurrentItem(4);
+			wheelDateMonth.setCurrentItem(3);
 			wheelDateMonth.addChangingListener(wheelListener);
 			wheelDateMonth.setCyclic(true);
 
