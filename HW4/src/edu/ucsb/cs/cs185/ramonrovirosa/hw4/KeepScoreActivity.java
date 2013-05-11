@@ -299,16 +299,23 @@ public class KeepScoreActivity extends FragmentActivity {
 	    wheelScore2.setCurrentItem(0);
 	}
 	
-	void updateDays()
-    {
-        Calendar calendar = Calendar.getInstance();
-        
-        // Get maximum number of days for the currently selected month
-        // and update the wheelDateDay view by setting its view adapter.
-        // hint: http://developer.android.com/reference/java/util/Calendar.html#getActualMaximum(int)
-        
-		//wheelDateDay.setCurrentItem(curDay - 1, true);
-    }
+	void updateDays() {
+		Calendar calendar = Calendar.getInstance();
+
+		// Get maximum number of days for the currently selected month
+		// and update the wheelDateDay view by setting its view adapter.
+		// hint:
+		// http://developer.android.com/reference/java/util/Calendar.html#getActualMaximum(int)
+		int year = wheelDateYear.getCurrentItem();
+		int month = wheelDateMonth.getCurrentItem();
+		int day = wheelDateDay.getCurrentItem();
+		calendar.set(year, month, day);
+		int max = calendar.getActualMaximum(Calendar.DATE);
+		wheelDateDay.setViewAdapter(new NumericWheelAdapter(this, 1, max,"%02d"));
+		
+		
+		
+	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item){
