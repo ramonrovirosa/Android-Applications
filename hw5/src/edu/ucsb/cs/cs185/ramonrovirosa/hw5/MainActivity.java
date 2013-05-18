@@ -19,9 +19,13 @@ public class MainActivity extends Activity {
 
 	private String selectedImagePath;
 
+	
+
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		
 
 		((Button) findViewById(R.id.button))
 				.setOnClickListener(new OnClickListener() {
@@ -61,39 +65,43 @@ public class MainActivity extends Activity {
 		return cursor.getString(column_index);
 	}
 
-	@Override
-	public boolean onTouchEvent(MotionEvent event) {
-		super.onTouchEvent(event);
-
-		int action = event.getAction() & MotionEvent.ACTION_MASK;
-
-		switch (action) {
-		case MotionEvent.ACTION_DOWN: {
-			Log.d("MultitouchExample", "Action Down");
-			break;
-		}
-		case MotionEvent.ACTION_MOVE: {
-			Log.d("MultitouchExample", "Action Move");
-			break;
-		}
-
-		case MotionEvent.ACTION_POINTER_DOWN: {
-			Log.d("MultitouchExample", "Pointer Down");
-			break;
-		}
-		case MotionEvent.ACTION_POINTER_UP: {
-			Log.d("MultitouchExample", "Pointer up");
-
-			break;
-		}
-		case MotionEvent.ACTION_UP: {
-			Log.d("Multitouch", "Action up");
-
-			break;
-		}
-		}
-
-		return true;
-	}
+//	@Override
+//	public boolean onTouchEvent(MotionEvent event) {
+//		super.onTouchEvent(event);
+//		
+//		
+//
+//		int action = event.getAction() & MotionEvent.ACTION_MASK;
+//
+//		switch (action) {
+//		case MotionEvent.ACTION_DOWN: {
+//			Log.d("MultitouchExample", "Action Down");
+//			break;
+//		}
+//		case MotionEvent.ACTION_MOVE: {
+//			Log.d("MultitouchExample", "Action Move");
+//			break;
+//		}
+//
+//		case MotionEvent.ACTION_POINTER_DOWN: {
+//			Log.d("MultitouchExample", "Pointer Down");
+//			break;
+//		}
+//		case MotionEvent.ACTION_POINTER_UP: {
+//			Log.d("MultitouchExample", "Pointer up");
+//
+//			break;
+//		}
+//		case MotionEvent.ACTION_UP: {
+//			Log.d("Multitouch", "Action up");
+//
+//			break;
+//		}
+//		}
+//
+//		return true;
+//	}
+	
+	
 
 }
