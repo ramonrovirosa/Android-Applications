@@ -20,6 +20,7 @@ public class touchView extends ImageView implements OnGestureListener {
     private static final String TAG = "Touch";
     Matrix matrix = new Matrix();
     Matrix savedMatrix = new Matrix();
+    
  
     static final int NONE = 0;
     static final int MOVE = 1;
@@ -41,16 +42,22 @@ public class touchView extends ImageView implements OnGestureListener {
     public touchView(Context context){
         super(context);
         paint.setColor(Color.RED);
+        matrix.reset();
+        matrix.postScale(.3f,.3f);
     }
  
     public touchView(Context context, AttributeSet attrs){
         super(context, attrs);
         paint.setColor(Color.RED);
+        matrix.reset();
+        matrix.postScale(.3f,.3f);
     }
  
     public touchView(Context context, AttributeSet attrs, int defStyle){
         super(context, attrs, defStyle);
         paint.setColor(Color.RED);
+        matrix.reset();
+        matrix.postScale(.3f,.3f);
     }
  
     Canvas can;
@@ -63,17 +70,21 @@ public class touchView extends ImageView implements OnGestureListener {
         
         can =canvas;
         image = (touchView) findViewById(R.id.touchView);
+        //matrix.
         
         image.setImageMatrix(matrix);
         
  
         System.out.println(tap);
         
-        
+        Matrix dotMatrix = matrix;
             
  
         canvas.save();
+        //matrix.preTranslate(start.x, start.y);
         canvas.drawCircle(start.x, start.y, 15, paint);
+        //matrix.postTranslate(0, 0);
+        //matrix.postTranslate(-start.x, -start.y);
         canvas.restore();
     }
  
@@ -151,8 +162,7 @@ public class touchView extends ImageView implements OnGestureListener {
 		case MotionEvent.ACTION_DOWN:
 			//Matrix dotMatrix = matrix;
 			
-			matrix.set(savedMatrix);
-			matrix.postTranslate(start.x, start.y );
+			
 			
 			savedMatrix.set(matrix);
 			start.set(event.getX(), event.getY());
