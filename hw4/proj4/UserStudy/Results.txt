@@ -1,0 +1,19 @@
+﻿Ramon Rovirosa
+
+
+Study Findings Hw 4
+
+
+Mean1(Single Screen UI): 502.33
+Mean2(Multi Screen UI): 587
+ttest pvalue: .020221
+Confidence Interval: .9797
+
+
+From the results of the study we can say based on the confidence interval, that with almost 98% confidence the single screen ui was faster than  the multi screen ui.
+
+
+From the study, as expected the user who didn't have a smartphone performed slower than the two participants who had smartphones. 
+
+
+The questionnaire revealed that the single screen ui allowed the participants to enter data faster, and the clock times agrees with these findings. Changing the order of inputs starting with did not change which interface was fastest, but surprisingly the 1st interface used was the favorite of all three candidates even when having different 1st interfaces.

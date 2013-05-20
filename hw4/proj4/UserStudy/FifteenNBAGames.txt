@@ -1,0 +1,15 @@
+﻿Jan 31, 2013         Golden State Warriors         100,         Dallas Mavericks                 97  
+Dec 9, 2012         Orlando Magic                 98,         Phoenix Suns                         90  
+Feb 20, 2013         Brooklyn Nets                             97,         Milwaukee Bucks                 94  
+Nov 11, 2012         Los Angeles Clippers                 89,         Atlanta Hawks                 76  
+Mar 25, 2013         Miami Heat                         108,         Orlando Magic                 94  
+Nov 27, 2012         Minnesota Timberwolves         97,         Sacramento Kings                 89  
+Apr 3, 2013         Minnesota Timberwolves         107,         Milwaukee Bucks                 98  
+Feb 4, 2013         Philadelphia 76ers                 78,         Orlando Magic                 61  
+Mar 10, 2013         Orlando Magic                 99,         Philadelphia 76ers                 91  
+Apr 3, 2013         New York Knicks                 95,         Atlanta Hawks                 82  
+Dec 10, 2012         Dallas Mavericks                 119,         Sacramento Kings                 96  
+Nov 3, 2012         Boston Celtics                 89,         Washington Wizards                 86  
+Jan 14, 2013         Chicago Bulls                         97,         Atlanta Hawks                 58  
+Jan 25, 2013         Chicago Bulls                         103,         Golden State Warriors         87  
+Dec 22, 2012         Atlanta Hawks                 92,         Chicago Bulls                         75
